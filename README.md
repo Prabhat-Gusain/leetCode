@@ -7,3 +7,6 @@ Each solution folder follows the pattern:
 0001-two-sum/
 ├── README.md
 └── two-sum.cpp
+
+🛠 Languages Used
+  >C++
