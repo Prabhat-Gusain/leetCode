@@ -23,14 +23,7 @@ public:
             }
             else //nums[high]>=nums[mid]
             {
-                if(nums[low]>nums[high])
-                {
-                    high=mid;
-                }
-                else //nums[low]<=nums[high]
-                {
-                    high=mid;
-                }
+                high=mid;
             }
         }
         return -1;
