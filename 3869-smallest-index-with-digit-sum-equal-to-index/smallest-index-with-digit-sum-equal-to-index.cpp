@@ -15,14 +15,10 @@ public:
                 nums[i]/=10;
             }
 
-            if(sumOfDigits==i)
+            if (sumOfDigits == i)
             {
-                smallestIndx=min(smallestIndx,i);
+                return i;
             }
-        }
-        if(smallestIndx<1000)
-        {
-            return smallestIndx;
         }
         return -1;
     }
