@@ -6,25 +6,7 @@ public:
         {
             return false;
         }
-        // else //n>=10
-        // {
-        //     // for(int i=10;i>0;i--)
-        //     // {
-        //     //     if((n-i)>0 && (n-i)<(i-1))
-        //     //     {
-        //     //         return true;
-        //     //     }
-        //     // }
-        //     if(n-counter < counter-1)
-        //     {
-        //         return true;
-        //     }
-        //     else if(n-counter >= counter-1 && n-counter < 27)
-        //     {
-        //         return false
-        //     }
-
-        // }
+        
         if( n>=10 && n<19)
         {
             return true;
